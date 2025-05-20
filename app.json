@@ -1,0 +1,19 @@
+{
+  "name": "Batch AI Task Runner",
+  "description": "Upload your data, pick an AI task, kick off ai_query jobs and fetch results—all inside Databricks Apps.",
+  "icon": "🔮",
+  "authors": ["Your Name <you@example.com>"],
+  "app_type": "PYTHON_STREAMLIT",
+  "main": "app.py",
+  "environment": {
+    "package_requirements": "requirements.txt"
+  },
+  "secrets": [
+    {
+      "env_var": "DATABRICKS_TOKEN",
+      "scope": "my_secret_scope",
+      "key": "sql-access-token"
+    }
+  ],
+  "widgets": []
+}
